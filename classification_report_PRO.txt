@@ -1,0 +1,19 @@
+=== CLASSIFICATION REPORT ===
+
+              precision    recall  f1-score   support
+
+      center       0.56      0.28      0.37        18
+        left       0.62      0.76      0.68        21
+       right       0.70      0.84      0.76        19
+
+    accuracy                           0.64        58
+   macro avg       0.62      0.63      0.60        58
+weighted avg       0.62      0.64      0.61        58
+
+
+=== CONFUSION MATRIX ===
+
+             Pred_Center  Pred_Left  Pred_Right
+True_Center            5          9           4
+True_Left              2         16           3
+True_Right             2          1          16
